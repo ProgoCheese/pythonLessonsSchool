@@ -1,14 +1,15 @@
 number = int(input())
 ans = ''
-is_end = False
-while is_end!:
-
+i = 0
+is_end = True
+while is_end:
     for j in range(i):
         if len(ans)!= number:
             ans = ans + str(i)
         else:
             print(ans)
-            t = True
+            is_end = False
             break
-    if t == True:
+    if is_end == False:
         break
+    i = i + 1

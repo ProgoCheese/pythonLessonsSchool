@@ -1,0 +1,16 @@
+number = int(input())
+ans = ''
+is_end = True
+i = 0
+t = True
+while is_end:
+    for j in range(i):
+        if len(ans)!= number:
+            ans = ans + str(i)
+        else:
+            print(ans)
+            t = False
+            break
+    if t == False:
+        break
+    i=i+1

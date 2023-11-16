@@ -1,0 +1,67 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision d747209790a176c9b5dbb662163345d39a5f0103)
++++ b/.idea/vcs.xml	(revision d747209790a176c9b5dbb662163345d39a5f0103)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: L1T3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/L1T3.py b/L1T3.py
+--- a/L1T3.py	(revision 6ea4b30e731bbc76a0b12aadc1ef54cee18acc72)
++++ b/L1T3.py	(revision d747209790a176c9b5dbb662163345d39a5f0103)
+@@ -1,14 +1,15 @@
+ number = int(input())
+ ans = ''
+-is_end = False
+-while is_end!:
+-
++i = 0
++is_end = True
++while is_end:
+     for j in range(i):
+         if len(ans)!= number:
+             ans = ans + str(i)
+         else:
+             print(ans)
+-            t = True
++            is_end = False
+             break
+-    if t == True:
+-        break
+\ No newline at end of file
++    if is_end == False:
++        break
++    i = i + 1
+\ No newline at end of file
+Index: L2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/L2.py b/L2.py
+--- a/L2.py	(revision d747209790a176c9b5dbb662163345d39a5f0103)
++++ b/L2.py	(revision 9be1451cb003fbe6af229b5a0190fd1ea541b380)
+@@ -7,8 +7,4 @@
+         ans=ans+' '+ check
+     else:
+         check = user_list[i]
+-#for i in range(len(user_list)):
+-#    if user_list[i] != check:
+-#        check = user_list[i]
+-#        ans=ans+' '+ check
+ print(ans)
+\ No newline at end of file

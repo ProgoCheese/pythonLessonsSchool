@@ -12,7 +12,6 @@ def shaker_sort(array):
                 array[i], array[i + 1] = array[i + 1], array[i]
                 swapped = True
 
-        # если не было обменов прерываем цикл
         if (not (swapped)):
             break
 

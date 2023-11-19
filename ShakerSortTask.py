@@ -26,7 +26,6 @@ def shaker_sort(array):
 
         start_index = start_index + 1
 
-
 user_list = input().split()
 shaker_sort(user_list)
 print("Отсортированный массив: ")

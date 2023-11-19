@@ -6,7 +6,6 @@ def shaker_sort(array):
     while swapped:
         swapped = False
 
-        # проход слева направо
         for i in range(start_index, end_index):
             if (array[i] > array[i + 1]):
                 array[i], array[i + 1] = array[i + 1], array[i]
@@ -18,7 +17,6 @@ def shaker_sort(array):
         swapped = False
         end_index = end_index - 1
 
-        # проход справа налево
         for i in range(end_index - 1, start_index - 1, -1):
             if (array[i] > array[i + 1]):
                 array[i], array[i + 1] = array[i + 1], array[i]
